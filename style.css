@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5ddf1;
+}
+
+.watermelon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.watermelon h2,
+.watermelon h4 {
+  margin: 0;
+}
+
+.watermelon h4#setthedate {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .watermelon {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .watermelon h4#setthedate {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
+  #adder,
+  #clearbutt {
+    height: 40px;
+    width: 150px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .watermelon {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .watermelon h4#setthedate {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .watermelon {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .watermelon h4#setthedate {
+    margin-left: 10px;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 100%;
+  margin: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 100%;
+  margin: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 100%;
+  margin: 10px;
+}
+
+#maincont {
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted black;
+  padding: 10%;
+  width: 90%;
+  max-width: 100%;
+  margin: 10px;
+  background-color: #f7c3f4;
+}
+
+#enterbox {
+  width: 100%;
+  font-size: 20px;
+  padding: 5%;
+  border: 1px dotted black;
+  background-color: #ffffff;
+}
+
+#enterbox:hover {
+  background-color: #dfdfdf;
+}
+
+#adder {
+  width: 150px;
+  height: 40px; 
+  border: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 18px; 
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 10px;
+  box-shadow: 4px 4px 10px black;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+#adder:hover
+{
+  background-color: #adadad;
+  box-shadow: 4px 4px 15px black;
+  }
+
+  #todolist {
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted black;
+  padding: 10%;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  width: 90%;
+  box-sizing: border-box;
+  }
+
+  #todolist li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+  #clearbutt {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  box-shadow: 4px 4px 10px black;
+  cursor: pointer;
+  margin-top: 10px;
+  grid-area: clearbutt;
+  align-self: self-end;
+  margin-right: 1%;
+  }
+
+  #clearbutt:hover {
+  background-color: #adadad;
+  box-shadow: 4px 4px 15px black;
+  }
+
+  @media screen and (min-width: 768px) {
+  header {
+  width: 80%;
+  margin: 20px;
+  }
+
+  #maincont {
+  padding-block: 10%;
+  padding-inline: 20%;
+  }
+
+  #todolist {
+  width: 100%;
+  }
+
+  #adder {
+  width: 150px;
+  }
+  }
+
+  @media screen and (min-width: 1024px) {
+  header {
+  width: 60%;
+  margin: 30px;
+  }
+
+  #maincont {
+  padding-block: 5%;
+  padding-inline: 10%;
+
+  }
+
+  #todolist {
+  width: 100%;
+  margin-top: 50px;
+  }
+
+  #adder {
+  width: 200px;
+  height: 50px;
+  }
+
+  #clearbutt{
+    width: 200px;
+    height: 50px;
+  }
+  }
+
