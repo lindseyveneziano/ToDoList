@@ -6,7 +6,7 @@ This To-Do List application is a simple, user-friendly tool that helps you keep 
 
 Check out the live application:
 
-https://to-do-list-jbipcnun0-lindseys-projects-52b951a4.vercel.app/
+https://to-do-list-rho-wine.vercel.app/
 
 ## Features
 
